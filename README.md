@@ -6,16 +6,16 @@
 
 ### Turn hours of gameplay into the moments worth keeping.
 
-**Stop scrubbing through recordings by hand. ClipForge scans your gameplay locally, finds the moments you care about, lets you review them on a visual timeline, and exports the clips you actually want.**
+**Find the action. Review the clips. Export your highlights.**
+
+Stop scrubbing through every minute of a recording. ClipForge finds the HUD events you define and gives you a visual workspace to decide what stays.
 
 <p>
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-6C4BFF?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10/11" />
-  <img src="https://img.shields.io/badge/LOCAL--FIRST-NO%20CLOUD%20UPLOAD-151B2E?style=for-the-badge" alt="Local first" />
-  <img src="https://img.shields.io/badge/NVIDIA-NVDEC-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA NVDEC" />
+  <img src="https://img.shields.io/badge/LOCAL--FIRST-NO%20FOOTAGE%20UPLOAD-151B2E?style=for-the-badge" alt="Footage processed locally" />
+  <img src="https://img.shields.io/badge/NVIDIA-GPU%20SCANNING-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA GPU scanning" />
   <img src="https://img.shields.io/badge/BUILT%20FOR-GAMERS%20%26%20CREATORS-B94CFF?style=for-the-badge" alt="Built for gamers and creators" />
 </p>
-
-## **Find. Review. Export. Relive.**
 
 [**🚀 Get started**](#get-started) · [**⭐ Star ClipForge**](https://github.com/ForthtuN/ClipForge-releases) · [**🐛 Report an issue**](https://github.com/ForthtuN/ClipForge-releases/issues)
 
@@ -25,134 +25,107 @@
 
 ## Your best clips are already in your recordings.
 
-The problem is finding them.
+A two-hour session might contain a clutch, a comeback, a clean headshot or the objective that won the round. ClipForge helps you find those moments without turning review into another grind.
 
-*The images above and below are marketing illustrations based on ClipForge, with generated gameplay and example data.*
+- 🎯 **Your triggers** — define the icons, words and HUD events that matter to you.
+- ⚡ **GPU scanning** — NVIDIA-accelerated scanning for supported recordings.
+- 🎞️ **Visual review** — jump to detected moments, scrub the source and inspect each clip.
+- ✂️ **Your final cut** — keep or skip clips, adjust their ranges and export your picks.
+- 🔒 **Local footage** — recordings are processed on your PC, with no footage upload required.
 
-A two-hour session can contain a few seconds you actually want for YouTube, Shorts, TikTok, Discord, a montage, or just your own archive. ClipForge is built around one job: **get you from raw recording to usable highlights without the grind.**
-
-- 🎯 **Detect the moments you define** — kills, headshots, objectives, wins, deaths, HUD icons, text, or your own custom triggers.
-- ⚡ **GPU-first scanning** — NVIDIA-accelerated scanning for supported gameplay recordings.
-- 👁️ **Visual Match + Windows OCR** — use fast visual matching for icons/text appearances, OCR for text targets, or combine them adaptively.
-- 🎞️ **Review everything visually** — filmstrip timeline, event markers, clip details, scrub/playback, fullscreen, trim and navigation.
-- ✂️ **Export only what matters** — include/exclude clips, adjust ranges, then export the moments you chose.
-- 🔒 **Local-first** — your footage stays on your PC. No cloud upload required.
+*Product illustrations use ClipForge's interface as a reference, with generated gameplay and example data.*
 
 ---
 
-## The Results page is built for speed
+## Review the play. Keep the moment.
 
-<img src="docs/images/clipforge-results.png" alt="ClipForge Results workflow with visual timeline and detected clips" width="100%" />
+<img src="docs/images/clipforge-results.png" alt="ClipForge Results workspace with video preview, event markers and clip details" width="100%" />
 
-Once a scan finishes, ClipForge gives you a proper review workspace instead of a dump of timestamps.
+Scanning gets you to the action. Results puts you in control: watch the preview, jump between moments and choose the clips worth sharing. Use fullscreen when you want a closer look.
 
-**See where the action happened. Jump straight to it. Decide what stays.**
+### A timeline that shows you where things happened
 
-- large video preview with playback controls
-- visual filmstrip across the source recording
-- highlight/event markers directly on the playback timeline
-- detected moments table with previews and trigger information
-- clip details with grouped event counts
-- fullscreen playback and fast clip navigation
-- trim controls without destroying the original analysis
-- export inclusion per clip
+<img src="docs/images/clipforge-timeline-detail.png" alt="Close-up of ClipForge's timeline: detected moment markers, event navigation and the playback seek slider" width="100%" />
+
+**See the markers. Jump to the moment. Scrub around it.** Detected events sit directly above the playback slider, so you can navigate the recording without hunting through a list of timestamps.
+
+### Know what each clip contains
+
+<img src="docs/images/clipforge-clip-detail.png" alt="Clip Details close-up showing grouped trigger counts, export inclusion and clip-range editing" width="100%" />
+
+A clip can contain several detected moments. Clip Details shows grouped counts using your trigger names — for example, **3× Elimination · 1× Assist** — together with the clip's duration and source.
+
+Keep it in the export, skip it, or adjust its range. **You choose the highlights; ClipForge leaves the source recording untouched.**
 
 ---
 
-## Build the detector around your game
+## Your game. Your definition of a highlight.
 
-ClipForge is not locked to a small list of supported games. Create profiles around **your game, your HUD, and your definition of a highlight**.
+<img src="docs/images/clipforge-trigger-detail.png" alt="Illustration of a blue HUD search area and a tight yellow reference around an example Elimination trigger" width="100%" />
 
-Pause on the event you care about, draw the area ClipForge should inspect, capture a reference and tune the detector while seeing what ClipForge sees.
+**Choose where to look. Show what to recognize.** Pause on a HUD event, draw its search area and capture a tight reference around the text or icon you want to detect.
 
-A profile can contain multiple independent triggers and can use:
+Build a profile around your own game and setup. Use visual references for HUD appearances, Windows OCR for text targets, or adaptive detection. Add alternate visual appearances and separate triggers for different events.
 
-- **Visual Match** for HUD icons, words and shapes
-- **multiple visual references** for alternate appearances
-- **Windows OCR** with contains / exact / regex matching
-- **custom trigger names** that flow through Results and event summaries
-- **configurable event grouping** so one on-screen event does not become dozens of duplicate detections
-
-No hardcoded `KILL` logic. No one-game-only detector.
+A notification may remain visible across many sampled frames. Event grouping combines nearby matches into logical moments, so your counts represent **events**, not repeated samples of the same notification.
 
 ---
 
 ## Drop in footage. Build a queue. Scan.
 
-<img src="docs/images/clipforge-library.png" alt="ClipForge Library — add recordings, choose a profile and scan for highlights" width="100%" />
+<img src="docs/images/clipforge-library.png" alt="ClipForge Library with example recordings, a scanning profile and scan summary" width="100%" />
 
-ClipForge is designed for real recording folders, not toy demo files. Add individual recordings or entire folders, choose a scanning profile, and let the app work through the queue while keeping the source files read-only.
+Add individual recordings or a whole folder. Choose a profile, scan the queue and move straight into review.
 
-The workflow stays simple: **add footage → choose a profile → scan → review → export.**
+**Add footage → choose a profile → scan → review → export.**
 
----
+### Built for long recordings
 
-## Fast enough to attack long recordings
+On the development RTX 5080, a real **14:37 recording at 1440p AV1/HDR** was scanned at roughly **36× realtime** with the tested profile and SSD configuration.
 
-ClipForge was designed around the fact that gameplay recordings are huge.
+> A measured development workload, not a guaranteed speed on every PC. Performance depends on your recording, profile, sample rate, GPU and storage.
 
-On the development RTX 5080, the real 14:37 1440p AV1/HDR Wardogs workload measured roughly **36× realtime** with the tested profile and SSD configuration.
+### Keep your footage on your PC
 
-Actual speed depends on your recording, scanning profile, GPU and storage.
-
-> This is a measured development workload, not a guaranteed speed on every PC.
+Your recordings stay local and are treated as read-only. Exported highlights are written to separate files. HDR-aware playback adapts to the active display; appearance can vary with Windows HDR settings and your GPU/driver.
 
 ---
 
-## Built for gameplay footage
+## Made for the moments you want to share
 
-### HDR-aware playback
-Review gameplay in a large preview or fullscreen. HDR presentation adapts to the active display; appearance can vary with Windows HDR settings and your GPU/driver.
-
-### Timeline that shows you where things happened
-Detected events live on the timeline instead of disappearing into a log. Scrub the whole recording, jump between moments, inspect grouped triggers, and edit the range only when you need to.
-
-### Smart event grouping
-A HUD notification may remain visible across many sampled frames. ClipForge groups those raw matches into logical events so the UI reports **moments**, not meaningless duplicate sample counts.
-
-### Source-safe workflow
-Recordings are treated as read-only. Exported clips go to separate files, and edited ranges are handled independently from the source footage.
-
----
-
-## Perfect for
-
-| | |
+| If you… | ClipForge helps you… |
 |---|---|
-| 🎥 **YouTube creators** | Pull the usable moments out of long recording sessions. |
-| 📱 **Shorts / TikTok** | Build a pile of candidate clips without manually scrubbing everything. |
-| 🎬 **Montage editors** | Find fights, kills, objectives and other repeated HUD events fast. |
-| 🎮 **Players who record everything** | Keep the best moments without turning review into a second job. |
-| 🧪 **Power users** | Build custom profiles around your own triggers instead of waiting for game-specific support. |
+| Make YouTube videos or montages | Find candidate highlights across long sessions. |
+| Share clips on Discord, Shorts or TikTok | Build a shortlist of moments to take into your editing workflow. |
+| Record every match | Keep the memorable plays without reviewing everything by hand. |
+| Want control over detection | Build profiles around your own HUD and trigger names. |
 
 ---
 
 ## Get started
 
-**ClipForge is currently a development preview. A packaged Windows release has not been published yet.**
+**ClipForge is currently a development preview. The first Windows installer has not been released yet.**
 
-The first Windows installer has not been released yet. Downloads and release notes will appear on the [Releases page](https://github.com/ForthtuN/ClipForge-releases/releases).
+Downloads and release notes will appear on the [Releases page](https://github.com/ForthtuN/ClipForge-releases/releases).
 
-You'll need Windows 10/11 x64. GPU scanning requires a compatible NVIDIA GPU, driver and codec. The planned installer will include the media components needed to run ClipForge.
+You'll need **Windows 10/11 x64**. GPU scanning requires a compatible NVIDIA GPU, driver and codec. The planned installer will include the media components needed to run ClipForge.
 
-Once installed, the workflow is simple:
+Once installed:
 
 1. Add your gameplay recordings.
 2. Create or import a profile for the HUD events you want to find.
-3. Start scanning, then review the detected moments.
-4. Keep the clips you like, adjust their ranges and export.
+3. Scan, then review the detected moments.
+4. Keep your picks, adjust their ranges and export.
 
 ## Help improve ClipForge
 
-Found a bug or have a feature idea? [Open an issue](https://github.com/ForthtuN/ClipForge-releases/issues). Include your app version, Windows version, GPU, recording codec and steps to reproduce. Remove personal information from logs and screenshots before sharing them.
+Found a bug or have a feature idea? [Open an issue](https://github.com/ForthtuN/ClipForge-releases/issues). For bugs, include your app version, Windows version, GPU, recording codec and steps to reproduce. Remove personal information from logs and screenshots before sharing them.
 
 This repository contains the ClipForge presentation, downloads and issue tracker. Application source code is maintained privately.
 
 ---
 
 <div align="center">
-
-# ClipForge
 
 ### **Your gameplay already has the moments. Stop wasting time finding them.**
 
