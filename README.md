@@ -33,8 +33,6 @@ A two-hour session might contain a clutch, a comeback, a clean headshot or the o
 - ✂️ **Your final cut** — keep or skip clips, adjust their ranges and export your picks.
 - 🔒 **Local footage** — recordings are processed on your PC, with no footage upload required.
 
-*Product illustrations use ClipForge's interface as a reference, with generated gameplay and example data.*
-
 ---
 
 ## Review the play. Keep the moment.
@@ -61,7 +59,7 @@ Keep it in the export, skip it, or adjust its range. **You choose the highlights
 
 ## Your game. Your definition of a highlight.
 
-<img src="docs/images/clipforge-trigger-detail.png" alt="Illustration of a blue HUD search area and a tight yellow reference around an example Elimination trigger" width="100%" />
+<img src="docs/images/clipforge-trigger-detail.png" alt="ClipForge profile setup with a blue HUD search area and a yellow reference around an Elimination trigger" width="100%" />
 
 **Choose where to look. Show what to recognize.** Pause on a HUD event, draw its search area and capture a tight reference around the text or icon you want to detect.
 
