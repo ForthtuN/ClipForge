@@ -17,7 +17,7 @@ Stop scrubbing through every minute of a recording. ClipForge finds the HUD even
   <img src="https://img.shields.io/badge/BUILT%20FOR-GAMERS%20%26%20CREATORS-B94CFF?style=for-the-badge" alt="Built for gamers and creators" />
 </p>
 
-[**🚀 Get started**](#get-started) · [**⭐ Star ClipForge**](https://github.com/ForthtuN/ClipForge-releases) · [**🐛 Report an issue**](https://github.com/ForthtuN/ClipForge-releases/issues)
+[**🚀 Get started**](#get-started) · [**⭐ Star ClipForge**](https://github.com/ForthtuN/ClipForge) · [**🐛 Report an issue**](https://github.com/ForthtuN/ClipForge/issues)
 
 </div>
 
@@ -104,7 +104,7 @@ Your recordings stay local and are treated as read-only. Exported highlights are
 
 **ClipForge is currently a development preview. The first Windows installer has not been released yet.**
 
-Downloads and release notes will appear on the [Releases page](https://github.com/ForthtuN/ClipForge-releases/releases).
+Downloads and release notes will appear on the [Releases page](https://github.com/ForthtuN/ClipForge/releases).
 
 You'll need **Windows 10/11 x64**. GPU scanning requires a compatible NVIDIA GPU, driver and codec. The planned installer will include the media components needed to run ClipForge.
 
@@ -117,7 +117,7 @@ Once installed:
 
 ## Help improve ClipForge
 
-Found a bug or have a feature idea? [Open an issue](https://github.com/ForthtuN/ClipForge-releases/issues). For bugs, include your app version, Windows version, GPU, recording codec and steps to reproduce. Remove personal information from logs and screenshots before sharing them.
+Found a bug or have a feature idea? [Open an issue](https://github.com/ForthtuN/ClipForge/issues). For bugs, include your app version, Windows version, GPU, recording codec and steps to reproduce. Remove personal information from logs and screenshots before sharing them.
 
 This repository contains the ClipForge presentation, downloads and issue tracker. Application source code is maintained privately.
 
