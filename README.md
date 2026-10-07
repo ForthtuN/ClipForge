@@ -104,11 +104,15 @@ Your recordings stay local and are treated as read-only. Exported highlights are
 
 ## Get started
 
-**ClipForge is currently a development preview. The first Windows installer has not been released yet.**
+**ClipForge 0.5.6 is available as a Windows development preview.**
 
-Downloads and release notes will appear on the [Releases page](https://github.com/ForthtuN/ClipForge/releases).
+[**Download the Windows installer →**](https://github.com/ForthtuN/ClipForge/releases/download/v0.5.6/ClipForge-Setup-0.5.6.exe) · [Release notes](https://github.com/ForthtuN/ClipForge/releases/tag/v0.5.6)
 
-You'll need **Windows 10/11 x64**. GPU scanning requires a compatible NVIDIA GPU, driver and codec. The planned installer will include the media components needed to run ClipForge.
+The download is approximately **238 MiB**. Installation is per-user and does not require administrator privileges.
+
+You'll need **Windows 10/11 x64**. GPU scanning requires a compatible NVIDIA GPU, driver and codec. The installer includes the runtime and media components needed to run ClipForge.
+
+**An internet connection is required at startup.** ClipForge checks GitHub for the current release before launching and installs required updates automatically. If the check fails or you are offline, choose **Retry** or **Exit**.
 
 Once installed:
 
