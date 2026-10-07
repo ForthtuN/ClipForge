@@ -46,7 +46,7 @@ Start with one trigger and make sure it works before adding more.
 1. Open **Profiles** and choose **New profile**.
 2. Click **Choose video** and select a recording from the game. If you already selected a recording in Library, it may be loaded automatically.
 3. Enter the **Game** and **Profile name**.
-4. Give the first trigger a clear name, for example **Headshot**. One trigger is already created for you; use **Add trigger** only when you want another.
+4. Give the first trigger a clear name, for example **Kill**. One trigger is already created for you; use **Add trigger** only when you want another.
 
 One profile can contain several independent triggers for the same game or HUD.
 
@@ -145,10 +145,10 @@ The Search Area can be larger than the Reference because ClipForge searches **in
 
 ### Example
 
-If HEADSHOT always appears near the upper-middle part of the screen:
+If KILL always appears near the upper-middle part of the screen:
 
-- Reference = a tight yellow box around the word HEADSHOT
-- Search Area = a larger blue box covering the notification area where HEADSHOT can appear
+- Reference = a tight yellow box around the word KILL
+- Search Area = a larger blue box covering the notification area where KILL can appear
 
 ClipForge is **not** comparing the whole yellow box against the whole blue box. It searches for the Reference anywhere inside the Search Area.
 
