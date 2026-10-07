@@ -37,9 +37,15 @@ Start with one trigger and make sure it works before adding more.
 
 One profile can contain several independent triggers for the same game or HUD.
 
+![Profile and trigger settings in the ClipForge editor](images/profile-guide-editor.png)
+
+The video is on the left and settings are in a scrollable sidebar on the right. **Choose video** is above the preview. When you open a saved profile without a recording, the preview is black and test controls stay disabled until you choose a video.
+
+**Result type**, **Result icon** and **Trigger name** label the moments in Results. **Detection method** controls what ClipForge actually looks for.
+
 ---
 
-## 2. Choose the detector type
+## 2. Choose the Detection method
 
 ### Visual Match setup
 
@@ -137,7 +143,7 @@ ClipForge is **not** comparing the whole yellow box against the whole blue box. 
 
 ### 6. Test the current frame
 
-Click **Test current frame**.
+Click **Test Visual Match**.
 
 ![Reference Preview, Search Area Preview and match result](images/profile-guide-test.svg)
 
@@ -147,9 +153,9 @@ You will see:
 - **Search Area Preview** — what the current Search Area sees
 - **TRUE / FALSE** — whether the current frame matched
 - **Similarity** — how closely the best match resembles the Reference
-- **Threshold** — the minimum similarity required for TRUE
+- **Threshold / Match strictness** — the minimum similarity required for TRUE
 
-### Start with the default threshold
+### Start with the default Match strictness
 
 The default **90%** is a strong starting point.
 
@@ -159,6 +165,12 @@ Only change it after testing:
 - clearly correct events are missed → lower it a little
 
 Do not tune the threshold before the Reference and Search Area are good.
+
+Leave **Foreground style** on **Auto · recommended**. Use Bright or Dark only if Auto selects the wrong foreground and the target consistently uses that style.
+
+![Visual Match Test, fine tuning, scanning and clip timing in ClipForge](images/profile-guide-test-controls.png)
+
+Scroll down the sidebar to find **Visual Match Test**, **Scanning** and **Clip timing**. The saved Reference Preview is still visible without a video; the Search Area Preview is populated when you test a loaded frame.
 
 ---
 
@@ -206,7 +218,7 @@ Draw the area where the text appears. Keep it focused on the relevant HUD text.
 
 ### 2. Test OCR before writing a rule
 
-You can press **Test current frame** even before entering a text rule.
+You can press **Test text on current frame** even before entering a text rule.
 
 ClipForge will show what OCR read from that frame. This is useful for checking whether the Search Area is good before deciding on the rule.
 
@@ -275,7 +287,7 @@ For every trigger, check that:
 - test frames behave as expected
 - clip timing makes sense for the event
 
-Then click **Save profile**.
+Then click **Save profile**. When editing an existing profile, the button is **Save changes**.
 
 If Save is disabled, the message above the button tells you what is still incomplete.
 

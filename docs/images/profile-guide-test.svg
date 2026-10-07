@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
   <rect width="1200" height="520" rx="28" fill="#0b1020"/>
-  <text x="58" y="65" fill="#f7f8fc" font-family="Segoe UI, Arial" font-size="32" font-weight="700">Test current frame</text>
+  <text x="58" y="65" fill="#f7f8fc" font-family="Segoe UI, Arial" font-size="32" font-weight="700">Test Visual Match</text>
   <text x="58" y="101" fill="#9ca9c3" font-family="Segoe UI, Arial" font-size="18">See what ClipForge searches for, where it searches, and whether it matched.</text>
   <rect x="58" y="140" width="320" height="260" rx="18" fill="#121a2c" stroke="#5a4a16"/>
   <circle cx="84" cy="174" r="7" fill="#ffc107"/>
