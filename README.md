@@ -104,9 +104,9 @@ Your recordings stay local and are treated as read-only. Exported highlights are
 
 ## Get started
 
-**ClipForge 0.5.6 is available as a Windows development preview.**
+**ClipForge 0.5.7 is available as a Windows development preview.**
 
-[**Download the Windows installer →**](https://github.com/ForthtuN/ClipForge/releases/download/v0.5.6/ClipForge-Setup-0.5.6.exe) · [Release notes](https://github.com/ForthtuN/ClipForge/releases/tag/v0.5.6)
+[**Download the Windows installer →**](https://github.com/ForthtuN/ClipForge/releases/download/v0.5.7/ClipForge-Setup-0.5.7.exe) · [Release notes](https://github.com/ForthtuN/ClipForge/releases/tag/v0.5.7)
 
 The download is approximately **238 MiB**. Installation is per-user and does not require administrator privileges.
 
