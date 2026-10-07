@@ -17,7 +17,7 @@ Stop scrubbing through every minute of a recording. ClipForge finds the HUD even
   <img src="https://img.shields.io/badge/BUILT%20FOR-GAMERS%20%26%20CREATORS-B94CFF?style=for-the-badge" alt="Built for gamers and creators" />
 </p>
 
-[**🚀 Get started**](#get-started) · [**⭐ Star ClipForge**](https://github.com/ForthtuN/ClipForge) · [**🐛 Report an issue**](https://github.com/ForthtuN/ClipForge/issues)
+[**🚀 Get started**](#get-started) · [**🎯 Create a game profile**](docs/CREATE_PROFILE.md) · [**⭐ Star ClipForge**](https://github.com/ForthtuN/ClipForge) · [**🐛 Report an issue**](https://github.com/ForthtuN/ClipForge/issues)
 
 </div>
 
@@ -61,7 +61,9 @@ Keep it in the export, skip it, or adjust its range. **You choose the highlights
 
 <img src="docs/images/clipforge-trigger-detail.png" alt="ClipForge profile setup with a blue HUD search area and a yellow reference around an Elimination trigger" width="100%" />
 
-**Choose where to look. Show what to recognize.** Pause on a HUD event, draw its search area and capture a tight reference around the text or icon you want to detect.
+**Show what to recognize. Choose where to look.** Pause on a HUD event, draw a tight yellow Reference around the text or icon, then draw the blue Search Area where it can appear.
+
+[**Create your first game profile →**](docs/CREATE_PROFILE.md) Follow the illustrated guide from your first trigger to testing and scanning.
 
 Build a profile around your own game and setup. Use visual references for HUD appearances, Windows OCR for text targets, or adaptive detection. Add alternate visual appearances and separate triggers for different events.
 
@@ -111,7 +113,7 @@ You'll need **Windows 10/11 x64**. GPU scanning requires a compatible NVIDIA GPU
 Once installed:
 
 1. Add your gameplay recordings.
-2. Create or import a profile for the HUD events you want to find.
+2. [Create a game profile](docs/CREATE_PROFILE.md) or import one for the HUD events you want to find.
 3. Scan, then review the detected moments.
 4. Keep your picks, adjust their ranges and export.
 
