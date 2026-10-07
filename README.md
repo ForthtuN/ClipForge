@@ -121,7 +121,7 @@ Once installed:
 
 Found a bug or have a feature idea? [Open an issue](https://github.com/ForthtuN/ClipForge/issues). For bugs, include your app version, Windows version, GPU, recording codec and steps to reproduce. Remove personal information from logs and screenshots before sharing them.
 
-This repository contains the ClipForge presentation, downloads and issue tracker. Application source code is maintained privately.
+This repository contains the ClipForge presentation, downloads and issue tracker. Application source code is maintained privately. ClipForge is proprietary software: [software license](LICENSE.txt).
 
 ---
 

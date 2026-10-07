@@ -1,0 +1,57 @@
+ClipForge Software License
+Copyright (c) 2026 ForthtuN. All rights reserved.
+
+1. Ownership
+ClipForge's original application code, interface, branding and documentation
+remain the property of their copyright holder, ForthtuN. This is a proprietary
+software license, not an open-source license. No ownership is transferred.
+
+2. Permission to use
+You may install and use an officially distributed version of ClipForge on
+Windows for personal or commercial video workflows, subject to these terms.
+You retain your rights in your own recordings, profiles and exported clips.
+You may share profiles you create and use exported clips commercially, provided
+you have the necessary rights to the underlying content.
+
+3. Restrictions
+Without prior written permission from ForthtuN, you may not redistribute,
+repackage, sell, sublicense or rent ClipForge; distribute modified versions;
+copy its original code or assets into another product; or remove copyright
+notices. You may not modify or reverse engineer ClipForge's proprietary code
+or bypass its update or access controls, except where applicable law or a
+third-party license expressly permits this. Linking to the official download
+page is permitted. Your own profiles and exported clips are not subject to
+these redistribution restrictions.
+
+4. Updates and availability
+ClipForge requires an internet connection to check for the current official
+release before starting. Installation of the current version is required.
+Features and availability may change in future releases. This license does
+not promise permanent free access to future versions or future premium features.
+Any paid offering will disclose its applicable terms before purchase.
+
+5. Third-party components
+Third-party software remains owned by its respective copyright holders and is
+governed by its own licenses. Those licenses take precedence for the relevant
+components. This license does not restrict rights granted by them, including
+permitted replacement of compatible shared libraries or reverse engineering
+for debugging modifications to LGPL-covered components. See the accompanying
+ThirdParty license files.
+
+6. Warranty and liability
+ClipForge is provided "as is", without warranties to the extent permitted by
+law. To the extent permitted by law, ForthtuN is not liable for loss of data,
+profits or other damages arising from use of the software. Nothing in these
+terms excludes mandatory consumer rights or liability that cannot lawfully
+be excluded. Keep backups of important recordings and settings.
+
+7. Termination
+Permission to use ClipForge ends if you breach these terms. On termination,
+stop using and remove ClipForge. Your own recordings, profiles and exported
+clips remain yours. Third-party rights and mandatory legal rights remain intact.
+
+8. Contact
+For permissions or licensing questions, contact ForthtuN through the official
+ClipForge GitHub repository: https://github.com/ForthtuN/ClipForge
+
+By installing or using ClipForge, you agree to these terms.
