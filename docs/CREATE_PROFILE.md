@@ -2,6 +2,19 @@
 
 Set up one trigger, test it on your recording, then scan for your first highlights. No image-recognition knowledge is needed.
 
+## TL;DR — your first highlights
+
+1. Open **Profiles → New profile**, choose a video and name your profile and trigger.
+2. Select **Visual Match** and pause on the event.
+3. Draw the **yellow Reference** tightly around the word or icon, then the **blue Search Area** where it can appear.
+4. Click **Test Visual Match** on frames with and without the event. Start with **90% Match strictness** and **Auto** foreground.
+5. **Save profile**, select it in **Library → Scanning Profile**, then **Start scanning**.
+6. Review **Results**, keep your clips and **Export included clips**.
+
+**Yellow = WHAT. Blue = WHERE. Test → Save → Scan.**
+
+---
+
 [Visual Match](#visual-match-setup) · [OCR](#ocr-profiles) · [Start scanning](#start-scanning) · [Common problems](#common-problems)
 
 The most important idea is:
@@ -318,19 +331,4 @@ Keep the game language, HUD layout and HUD scale consistent with the recordings 
 | Tests match but a brief event is missed during scanning | Increase Checks per second slightly and scan the short sample again. |
 | Matches stopped after changing HUD settings | Test with the new layout, scale or language; update the Reference and Search Area as needed. |
 | Save is disabled | Read the completion message above **Save profile**; every stored trigger must be complete. |
-
----
-
-## The 30-second version
-
-For a normal Visual Match trigger:
-
-1. Find the event in the video.
-2. **Yellow Reference:** tightly draw around **what** ClipForge should recognize.
-3. **Blue Search Area:** draw **where** ClipForge should look for it.
-4. Test a few positive and negative frames.
-5. Leave threshold near 90% unless testing gives you a reason to change it.
-6. Save the profile.
-
-**Yellow = WHAT. Blue = WHERE. Test. Save.**
 
